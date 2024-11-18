@@ -1,51 +1,31 @@
-<<<<<<< HEAD
-# SDG-Blockchain-social-Platform
-=======
-## Getting Started
+# Dockerized-Smart-Contract-On-Ethereum-Blockchain-with-3rd-Web-Engine
 
-Create a project using this example:
+This repository demonstrates a complete setup for deploying Ethereum smart contracts on the Sepolia testnet using Docker and thirdweb. The project emphasizes DevOps best practices, including containerization, persistent data management, and streamlined workflows for blockchain development.
 
-```bash
-npx thirdweb create --contract --template forge-starter
-```
+## Features  
+- **Dockerized Environment**: Streamlined development and deployment using Docker containers.  
+- **Persistent Data**: Bind mounts are used for seamless data retention across container sessions.  
+- **Blockchain Integration**: Deploy smart contracts with thirdweb connected to MetaMask wallets.  
+- **Version Control**: Git is used for managing code changes and tracking progress.  
 
-You can start editing the page by modifying `contracts/Contract.sol`.
+## Getting Started  
+To explore the code:  
+1. Clone this repository.  
+2. Set up Docker on your machine.  
+3. Follow the inline comments to configure the environment.  
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/thirdweb-deploy/contract-extensions) to learn more.
+## Documentation  
+Detailed documentation is available upon request. Please email me at qthmichaels@gmail.com for access.  
 
-## Building the project
+## Contributing  
+Contributions are welcome! Feel free to fork the repository, create a branch, and submit a pull request.  
 
-After any changes to the contract, run:
+## License  
+This project is open-source 
 
-```bash
-npm run build
-# or
-yarn build
-```
+---
 
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/thirdweb-deploy/contract-extensions) detected on your contract.
+### Contact  
+For inquiries or collaboration opportunities, please email qthmichaels@gmail.com
 
-## Deploying Contracts
-
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
-
-```bash
-npm run deploy
-# or
-yarn deploy
-```
-
-## Releasing Contracts
-
-If you want to release a version of your contracts publicly, you can use one of the followings command:
-
-```bash
-npm run release
-# or
-yarn release
-```
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
->>>>>>> 279201b (Here we go, reinitialised git)
+---
